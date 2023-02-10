@@ -22,6 +22,7 @@ int main()
         {
             mp[a[i]]++;
         }
+    // below loop only to check if it is working correctly or not.
         for(auto it: mp)
             {
                 cout<<it.first<<" "<<it.second<<endl;
