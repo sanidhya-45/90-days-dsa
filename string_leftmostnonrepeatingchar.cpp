@@ -10,19 +10,25 @@ class Solution
        {
            count[S[i]-'a']++;
        }
-       int index=INT_MAX;
-       for(int i=0;i<26;i++)
-       {
-           if(count[i]==1)
-           {
-               char ch=(char)(i+'a');
-               size_t r=S.find(ch);
-               if(r<index)
-                index=r;
-           }
-       }
-       if(index!=INT_MAX)
-        return S[index];
+        for(int i=0; i<S.length(); i++)
+        {
+            if(count[S[i]-'a']==1)
+                return S[i];
+        }
+//         below approach can also be used
+//        int index=INT_MAX;
+//        for(int i=0;i<26;i++)
+//        {
+//            if(count[i]==1)
+//            {
+//                char ch=(char)(i+'a');
+//                size_t r=S.find(ch);
+//                if(r<index)
+//                 index=r;
+//            }
+//        }
+//        if(index!=INT_MAX)
+//         return S[index];
        return '$';
     }
 
