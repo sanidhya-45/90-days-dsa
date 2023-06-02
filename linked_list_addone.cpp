@@ -1,27 +1,4 @@
-Problems
-CoursesPayday
-Job-a-ThonMEGA
-Contests
-POTD
 
-Refresh
-
-Time (IST)	Status	Lang	Test Cases	Code
-2023-06-02 18:21:52	Correct	cpp	224 / 224	View
-2023-02-19 13:11:46	RunTime Error	cpp	33 / 224	View
-2023-02-19 13:10:26	RunTime Error	cpp	25 / 224	View
-C++ (g++ 5.4)
-Average Time: 20m
-
-
-
-
-// } Driver Code Ends
-
-
- 
-
-Custom Input
 //User function template for C++
 
 /* 
